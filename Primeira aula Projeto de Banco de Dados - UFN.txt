@@ -1,0 +1,27 @@
+>>Glossario<<
+
+
+1- Banco de dados e a relação com sistema gerenciador de banco de dados (SGBD){
+
+  Definição de banco de dados:
+    É a fonte de dados (coleção organizada de dados estruturados) que armazena as informações necessárias para uma organização, sistema ou aplicação.
+
+  Relação entre BD e SGBD:
+    O SGBD cuida da gestão do banco de dados (O SGBD é um software que fornece ferramentas para manipular bancos de dados), garantindo que os dados sejam armazenados corretamente, de forma eficiente e acessível.
+
+}
+
+2- Modelo relacional de BD{
+
+  Definição:
+    O modelo relacional de banco de dados (BD) é um modelo de organização de dados baseado em tabelas que representam entidades e seus relacionamentos.
+
+  Características principais do modelo relacional:
+
+    Tabelas (ou relações):
+      O modelo relacional organiza os dados em tabelas. Cada tabela é uma relação que contém uma coleção de dados relacionados.
+      Cada tabela tem um nome e é composta por linhas (tuplas) e colunas (atributos):
+        Tupla: Cada linha da tabela, que representa uma instância de dados (um registro).
+        Atributo: Cada coluna da tabela, que define as características ou propriedades dos dados.
+
+}
