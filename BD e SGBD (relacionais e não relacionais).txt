@@ -1,0 +1,49 @@
+Diferença entre Banco de Dados e Sistema de Gerenciamento de Banco de Dados{
+
+    BD (Banco de Dados):
+        É um conjunto de dados organizados e armazenados de forma estruturada para facilitar o acesso,
+        a recuperação e a manipulação das informações. Pode ser um simples arquivo de texto, uma planilha ou um banco relacional mais complexo.
+    
+    SGBD (Sistema de Gerenciamento de Banco de Dados): 
+        É um software que permite criar, gerenciar e manipular bancos de dados. 
+        Ele controla o acesso, garante a integridade dos dados e facilita a execução de operações como inserção, atualização e remoção de registros. 
+        Exemplos de SGBDs são MySQL, PostgreSQL, Oracle, SQL Server e MongoDB.
+    
+    Ou seja, o BD é apenas o armazenamento dos dados, enquanto o SGBD é o sistema que gerencia e permite interagir com esses dados de forma eficiente e segura.
+
+}
+
+O que são SGBD relacionais e SGBD não relacionais{
+
+    SGBD Relacional:
+        Baseado no modelo relacional, onde os dados são armazenados em tabelas (linhas e colunas).
+        Utiliza SQL (Structured Query Language) para manipulação de dados.
+        As tabelas podem ser relacionadas entre si por chaves primárias e estrangeiras.
+        Garante integridade e consistência dos dados por meio de regras como normalização e transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade).
+        Exemplos: 
+            MySQL, PostgreSQL, SQL Server, Oracle, MariaDB.
+        ✅ Vantagens: 
+            Estrutura organizada, ideal para dados bem estruturados e transações complexas.
+        ❌ Desvantagens: 
+            Pode ser menos eficiente para grandes volumes de dados não estruturados ou distribuídos.
+    
+    SGBD Não Relacional (NoSQL):
+        Armazena os dados de forma flexível, sem seguir um esquema fixo de tabelas.
+        Existem diferentes tipos de bancos NoSQL:
+        Baseados em Documentos (MongoDB, CouchDB) → armazenam dados em formato JSON/BSON.
+        Baseados em Chave-Valor (Redis, DynamoDB) → pares de chave e valor para acesso rápido.
+        Baseados em Colunas (Cassandra, HBase) → otimizados para grandes volumes de dados.
+        Baseados em Grafos (Neo4j, ArangoDB) → usados para representar relações complexas.
+        São mais escaláveis horizontalmente e lidam melhor com grandes volumes de dados distribuídos.
+        ✅ Vantagens: 
+            Maior flexibilidade, melhor desempenho para grandes volumes de dados distribuídos e escalabilidade.
+        ❌ Desvantagens: 
+            Menos rigorosos com integridade dos dados e podem não suportar transações complexas tão bem quanto os relacionais.
+    
+    Quando usar cada um:
+        SGBD Relacional: 
+            Quando há necessidade de alta integridade, normalização e transações complexas (Ex.: bancos, sistemas de ERP).
+        SGBD Não Relacional: 
+            Quando há grandes volumes de dados, necessidade de escalabilidade e flexibilidade (Ex.: redes sociais, big data, IoT).
+
+}
